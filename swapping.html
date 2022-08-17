@@ -1,0 +1,18 @@
+<script>
+
+//input from the users
+let a = prompt('Enter the first variable: ');
+let b = prompt('Enter the second variable: ');
+
+// a temporary variable
+let temp;
+
+//swap variables
+temp = (a) ? a : 0;
+a = (b) ? b : 0;
+b = temp;
+
+document.write("The value of a after swapping: " + a);
+document.write("<br>");
+document.write("The value of b after swapping: " + b);
+</script>
